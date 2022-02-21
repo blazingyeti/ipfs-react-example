@@ -1,0 +1,66 @@
+html {
+  font-family: 'Courier New', Courier, monospace;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, 'Courier New', Courier, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h3 {
+  text-align: center;
+}
+input {
+  font-size: 1.2rem;
+}
+
+.App {
+  padding: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  transition: none;
+  font-size: calc(0.6rem + 1.2vw);
+}
+
+img, .card-img {
+  width: calc(7rem + 1vw);
+  height: auto;
+}
+
+.drag-upload {
+  border: dashed;
+}
+
+.ant-upload-text {
+  text-align: center;
+}
+
+#header {
+  padding: 1rem;
+  margin: 1rem;
+  justify-content: right;
+  border: solid;
+}
+
+#main {
+  padding: 2rem;
+  margin: 1rem;
+  font-size: 1.4rem;
+  justify-content: center;
+  border: solid;
+}
+
+#stored-result {
+  margin: 0.5rem;
+  text-align: center;
+}
+
+#cidLookup {
+  width:fit-content;
+}
+
+#cidInputCol * {
+  width:100%;
+}

@@ -1,0 +1,13 @@
+# builds
+node_modules/
+build/
+dist/
+package-lock.json
+yarn.lock
+
+# editors
+*.swp
+.idea/
+.vs/
+.vscode/
+.DS_Store
